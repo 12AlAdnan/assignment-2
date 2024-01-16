@@ -244,6 +244,81 @@ nav ul li a:hover {
   text-align: center;
 }
 
+/* place to get lost section style  */
+.get-lost h2 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.get-lost-list {
+  margin-top: 25px;
+}
+
+.get-lost-image img {
+  border-radius: 16px;
+  width: 600px;
+  height: 424px;
+
+}
+
+.get-lost {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+/* news latter style  */
+.news-letter-title {
+  border: 2px solid #FF5400;
+  border-radius: 8px;
+  width: 60%;
+  height: auto;
+
+}
+.news-letter-title h2{
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+}
+.news-style{
+  margin-left: 15px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: #757575;
+  border-radius: 5px;
+  background: #fff;
+  border: 0;
+  width: 80%;
+}
+
+.input-btn {
+  border-radius: 5px;
+  background: #FD6E0A;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
+  width: 80%;
+}
+.news-letter-image{
+  width: 672px;
+}
+
+.news-letter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+
 
 
 
@@ -315,14 +390,15 @@ nav ul li a:hover {
     text-align: left;
   }
 
-  .discount-image{
+  .discount-image {
     width: 100%;
     height: auto;
     margin-top: 15px;
     padding-right: 35px;
     padding-bottom: 20px;
   }
-  .discount-image-2{
+
+  .discount-image-2 {
     width: 100%;
     height: auto;
     margin-top: 15px;
@@ -335,17 +411,40 @@ nav ul li a:hover {
     height: 500px;
   }
 
-  .discount-description{
+  .discount-description {
     margin: 0;
     margin-left: 30px;
     padding: 16px;
     width: 80%;
   }
-  .discount-description-2{
+
+  .discount-description-2 {
     margin: 0;
     margin-left: 30px;
     padding: 16px;
     width: 80%;
+  }
+
+  .get-lost {
+    flex-direction: column;
+  }
+
+  .get-lost-image img {
+    width: 100%;
+  }
+
+  .news-letter{
+    flex-direction: column;
+  }
+
+  .news-letter-title{
+    width: 100%;
+    padding-bottom: 5px;
+  }
+
+  .news-letter-image img{
+    margin-top: 20px;
+    width: 60%;
   }
 
 
@@ -400,14 +499,15 @@ nav ul li a:hover {
     text-align: center;
   }
 
-  .discount-image{
+  .discount-image {
     width: 10000px;
     height: auto;
     margin-top: 15px;
     padding-right: 35px;
     padding-bottom: 20px;
   }
-  .discount-image-2{
+
+  .discount-image-2 {
     width: 1000px;
     height: 100%;
     margin-top: 15px;
@@ -420,13 +520,14 @@ nav ul li a:hover {
     height: 500px;
   }
 
-  .discount-description{
+  .discount-description {
     width: 550px;
     height: 289px;
     padding-top: 50px;
     padding-left: 35px;
   }
-  .discount-description-2{
+
+  .discount-description-2 {
     width: 550px;
     height: 289px;
     padding-top: 50px;

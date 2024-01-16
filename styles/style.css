@@ -451,10 +451,12 @@ textarea {
 
   .get-lost {
     flex-direction: column;
+    margin-top: 900px;
   }
 
   .get-lost-image img {
     width: 100%;
+    margin-top: 15px;
   }
 
   .news-letter{
@@ -462,13 +464,13 @@ textarea {
   }
 
   .news-letter-title{
-    width: 100%;
+    width: 90%;
     padding-bottom: 5px;
   }
 
   .news-letter-image img{
     margin-top: 20px;
-    width: 60%;
+    width: 50%;
   }
 
 
@@ -556,6 +558,11 @@ textarea {
     height: 289px;
     padding-top: 50px;
     padding-left: 35px;
+  }
+
+  .get-lost{
+    flex-direction: column;
+    margin-top: 1100px;
   }
 
 

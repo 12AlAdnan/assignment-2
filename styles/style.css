@@ -318,6 +318,30 @@ textarea {
   margin-top: 100px;
 }
 
+/* footer style  */
+.footer-logo-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.footer-description{
+  text-align: center;
+}
+
+.footer-icon{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.copy-right{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 80px;
+}
+
 
 
 
